@@ -1,4 +1,10 @@
-# Adwaita cursors for HiDPI displays
+# Adwaita lefthand cursors (also for HiDPI displays)
+
+Set of lefthanded cursors from the modified Adwaita theme.
+
+Forked from https://github.com/manu-mannattil/adwaita-cursors
+
+## Adwaita cursors for HiDPI displays
 
 GNOME officially provides the [Adwaita cursor theme][1] only in sizes
 24, 32, 48, 64, and 96.  This is inconvenient if you use displays that
@@ -46,7 +52,7 @@ with `SIZES` as an environment variable from the source directory, e.g.,
 
 This requires xcursorgen and Python.  To generate the cursors completely
 from scratch, including the PNG files, clone the repository and run
-`make`.  Note that you will also need Inkscape for this.
+`make`.  Note that you will also need Inkscape (does not work with version 1.0.1) for this.
 
 ## See also
 
