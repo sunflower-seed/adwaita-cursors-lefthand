@@ -2,67 +2,67 @@ SIZES ?= 24 30 36 42 48 54 60 66 72 78 84 90 96
 
 all: png
 	./genin.py $(SIZES)
-	mkdir -p Adwaita/cursors
-	xcursorgen   all-scroll.in            Adwaita/cursors/all-scroll
-	xcursorgen   bd_double_arrow.in       Adwaita/cursors/bd_double_arrow
-	xcursorgen   bottom_left_corner.in    Adwaita/cursors/bottom_left_corner
-	xcursorgen   bottom_right_corner.in   Adwaita/cursors/bottom_right_corner
-	xcursorgen   bottom_side.in           Adwaita/cursors/bottom_side
-	xcursorgen   bottom_tee.in            Adwaita/cursors/bottom_tee
-	xcursorgen   circle.in                Adwaita/cursors/circle
-	xcursorgen   context-menu.in          Adwaita/cursors/context-menu
-	xcursorgen   copy.in                  Adwaita/cursors/copy
-	xcursorgen   crossed_circle.in        Adwaita/cursors/crossed_circle
-	xcursorgen   crosshair.in             Adwaita/cursors/crosshair
-	xcursorgen   cross.in                 Adwaita/cursors/cross
-	xcursorgen   dnd-ask.in               Adwaita/cursors/dnd-ask
-	xcursorgen   dnd-copy.in              Adwaita/cursors/dnd-copy
-	xcursorgen   dnd-link.in              Adwaita/cursors/dnd-link
-	xcursorgen   dnd-move.in              Adwaita/cursors/dnd-move
-	xcursorgen   dnd-no-drop.in           Adwaita/cursors/dnd-no-drop
-	xcursorgen   dnd-none.in              Adwaita/cursors/dnd-none
-	xcursorgen   dotbox.in                Adwaita/cursors/dotbox
-	xcursorgen   fd_double_arrow.in       Adwaita/cursors/fd_double_arrow
-	xcursorgen   grabbing.in              Adwaita/cursors/grabbing
-	xcursorgen   hand1.in                 Adwaita/cursors/hand1
-	xcursorgen   hand2.in                 Adwaita/cursors/hand2
-	xcursorgen   left_ptr.in              Adwaita/cursors/left_ptr
-	xcursorgen   left_ptr_watch.in        Adwaita/cursors/left_ptr_watch
-	xcursorgen   left_side.in             Adwaita/cursors/left_side
-	xcursorgen   left_tee.in              Adwaita/cursors/left_tee
-	xcursorgen   link.in                  Adwaita/cursors/link
-	xcursorgen   ll_angle.in              Adwaita/cursors/ll_angle
-	xcursorgen   lr_angle.in              Adwaita/cursors/lr_angle
-	xcursorgen   move.in                  Adwaita/cursors/move
-	xcursorgen   pencil.in                Adwaita/cursors/pencil
-	xcursorgen   plus.in                  Adwaita/cursors/plus
-	xcursorgen   pointer-move.in          Adwaita/cursors/pointer-move
-	xcursorgen   question_arrow.in        Adwaita/cursors/question_arrow
-	xcursorgen   right_ptr.in             Adwaita/cursors/right_ptr
-	xcursorgen   right_side.in            Adwaita/cursors/right_side
-	xcursorgen   right_tee.in             Adwaita/cursors/right_tee
-	xcursorgen   sb_down_arrow.in         Adwaita/cursors/sb_down_arrow
-	xcursorgen   sb_h_double_arrow.in     Adwaita/cursors/sb_h_double_arrow
-	xcursorgen   sb_left_arrow.in         Adwaita/cursors/sb_left_arrow
-	xcursorgen   sb_right_arrow.in        Adwaita/cursors/sb_right_arrow
-	xcursorgen   sb_up_arrow.in           Adwaita/cursors/sb_up_arrow
-	xcursorgen   sb_v_double_arrow.in     Adwaita/cursors/sb_v_double_arrow
-	xcursorgen   tcross.in                Adwaita/cursors/tcross
-	xcursorgen   top_left_corner.in       Adwaita/cursors/top_left_corner
-	xcursorgen   top_right_corner.in      Adwaita/cursors/top_right_corner
-	xcursorgen   top_side.in              Adwaita/cursors/top_side
-	xcursorgen   top_tee.in               Adwaita/cursors/top_tee
-	xcursorgen   ul_angle.in              Adwaita/cursors/ul_angle
-	xcursorgen   ur_angle.in              Adwaita/cursors/ur_angle
-	xcursorgen   vertical-text.in         Adwaita/cursors/vertical-text
-	xcursorgen   watch.in                 Adwaita/cursors/watch
-	xcursorgen   X_cursor.in              Adwaita/cursors/X_cursor
-	xcursorgen   xterm.in                 Adwaita/cursors/xterm
-	xcursorgen   zoom-in.in               Adwaita/cursors/zoom-in
-	xcursorgen   zoom-out.in              Adwaita/cursors/zoom-out
+	mkdir -p Adwaita-lefthand/cursors
+	xcursorgen   all-scroll.in            Adwaita-lefthand/cursors/all-scroll
+	xcursorgen   bd_double_arrow.in       Adwaita-lefthand/cursors/bd_double_arrow
+	xcursorgen   bottom_left_corner.in    Adwaita-lefthand/cursors/bottom_left_corner
+	xcursorgen   bottom_right_corner.in   Adwaita-lefthand/cursors/bottom_right_corner
+	xcursorgen   bottom_side.in           Adwaita-lefthand/cursors/bottom_side
+	xcursorgen   bottom_tee.in            Adwaita-lefthand/cursors/bottom_tee
+	xcursorgen   circle.in                Adwaita-lefthand/cursors/circle
+	xcursorgen   context-menu.in          Adwaita-lefthand/cursors/context-menu
+	xcursorgen   copy.in                  Adwaita-lefthand/cursors/copy
+	xcursorgen   crossed_circle.in        Adwaita-lefthand/cursors/crossed_circle
+	xcursorgen   crosshair.in             Adwaita-lefthand/cursors/crosshair
+	xcursorgen   cross.in                 Adwaita-lefthand/cursors/cross
+	xcursorgen   dnd-ask.in               Adwaita-lefthand/cursors/dnd-ask
+	xcursorgen   dnd-copy.in              Adwaita-lefthand/cursors/dnd-copy
+	xcursorgen   dnd-link.in              Adwaita-lefthand/cursors/dnd-link
+	xcursorgen   dnd-move.in              Adwaita-lefthand/cursors/dnd-move
+	xcursorgen   dnd-no-drop.in           Adwaita-lefthand/cursors/dnd-no-drop
+	xcursorgen   dnd-none.in              Adwaita-lefthand/cursors/dnd-none
+	xcursorgen   dotbox.in                Adwaita-lefthand/cursors/dotbox
+	xcursorgen   fd_double_arrow.in       Adwaita-lefthand/cursors/fd_double_arrow
+	xcursorgen   grabbing.in              Adwaita-lefthand/cursors/grabbing
+	xcursorgen   hand1.in                 Adwaita-lefthand/cursors/hand1
+	xcursorgen   hand2.in                 Adwaita-lefthand/cursors/hand2
+	xcursorgen   left_ptr.in              Adwaita-lefthand/cursors/left_ptr
+	xcursorgen   left_ptr_watch.in        Adwaita-lefthand/cursors/left_ptr_watch
+	xcursorgen   left_side.in             Adwaita-lefthand/cursors/left_side
+	xcursorgen   left_tee.in              Adwaita-lefthand/cursors/left_tee
+	xcursorgen   link.in                  Adwaita-lefthand/cursors/link
+	xcursorgen   ll_angle.in              Adwaita-lefthand/cursors/ll_angle
+	xcursorgen   lr_angle.in              Adwaita-lefthand/cursors/lr_angle
+	xcursorgen   move.in                  Adwaita-lefthand/cursors/move
+	xcursorgen   pencil.in                Adwaita-lefthand/cursors/pencil
+	xcursorgen   plus.in                  Adwaita-lefthand/cursors/plus
+	xcursorgen   pointer-move.in          Adwaita-lefthand/cursors/pointer-move
+	xcursorgen   question_arrow.in        Adwaita-lefthand/cursors/question_arrow
+	xcursorgen   right_ptr.in             Adwaita-lefthand/cursors/right_ptr
+	xcursorgen   right_side.in            Adwaita-lefthand/cursors/right_side
+	xcursorgen   right_tee.in             Adwaita-lefthand/cursors/right_tee
+	xcursorgen   sb_down_arrow.in         Adwaita-lefthand/cursors/sb_down_arrow
+	xcursorgen   sb_h_double_arrow.in     Adwaita-lefthand/cursors/sb_h_double_arrow
+	xcursorgen   sb_left_arrow.in         Adwaita-lefthand/cursors/sb_left_arrow
+	xcursorgen   sb_right_arrow.in        Adwaita-lefthand/cursors/sb_right_arrow
+	xcursorgen   sb_up_arrow.in           Adwaita-lefthand/cursors/sb_up_arrow
+	xcursorgen   sb_v_double_arrow.in     Adwaita-lefthand/cursors/sb_v_double_arrow
+	xcursorgen   tcross.in                Adwaita-lefthand/cursors/tcross
+	xcursorgen   top_left_corner.in       Adwaita-lefthand/cursors/top_left_corner
+	xcursorgen   top_right_corner.in      Adwaita-lefthand/cursors/top_right_corner
+	xcursorgen   top_side.in              Adwaita-lefthand/cursors/top_side
+	xcursorgen   top_tee.in               Adwaita-lefthand/cursors/top_tee
+	xcursorgen   ul_angle.in              Adwaita-lefthand/cursors/ul_angle
+	xcursorgen   ur_angle.in              Adwaita-lefthand/cursors/ur_angle
+	xcursorgen   vertical-text.in         Adwaita-lefthand/cursors/vertical-text
+	xcursorgen   watch.in                 Adwaita-lefthand/cursors/watch
+	xcursorgen   X_cursor.in              Adwaita-lefthand/cursors/X_cursor
+	xcursorgen   xterm.in                 Adwaita-lefthand/cursors/xterm
+	xcursorgen   zoom-in.in               Adwaita-lefthand/cursors/zoom-in
+	xcursorgen   zoom-out.in              Adwaita-lefthand/cursors/zoom-out
 
 	# Now make cursor aliases.
-	cd Adwaita/cursors;                                                \
+	cd Adwaita-lefthand/cursors;                                       \
 	ln   -sf   bd_double_arrow       c7088f0f3e6c8088236ef8e1e3e70000; \
 	ln   -sf   bd_double_arrow       nwse-resize;                      \
 	ln   -sf   bd_double_arrow       size_fdiag;                       \
@@ -138,19 +138,19 @@ all: png
 	ln   -sf   xterm                 ibeam;                            \
 	ln   -sf   xterm                 text
 
-png: adwaita.svg
+png: adwaita-lefthand.svg
 	./renderpng.py $^ $(SIZES)
 
 tarball:
-	rm -f ../adwaita-cursors.tar.gz
-	tar --exclude='.git*' -cvzf ../adwaita-cursors.tar.gz ../$(notdir $(CURDIR))
+	rm -f ../adwaita-lefthand-cursors.tar.gz
+	tar --exclude='.git*' -cvzf ../adwaita-lefthand-cursors.tar.gz ../$(notdir $(CURDIR))
 clean:
 	rm -f *.in
-	rm -rf Adwaita/cursors
+	rm -rf Adwaita-lefthand/cursors
 
 distclean:
 	rm -f *.in
-	rm -rf Adwaita/cursors
+	rm -rf Adwaita-lefthand/cursors
 	rm -rf png
 
 .PHONY: clean distclean tarball
